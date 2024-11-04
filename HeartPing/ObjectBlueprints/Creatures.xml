@@ -3,7 +3,7 @@
   <object Name="HeartPing_CrystalPet" Inherits="Creature">
     <part Name="Render" DisplayName="{{HeartPingCalm|Ping}}" Tile="Creatures/ping.png" ColorString="&amp;M" DetailColor="R"/>
     <part Name="Description" Short="A sentient crystal that chose to take the shape of a heart after feeling your kindness. =pronouns.Subjective= communicates through gentle chimes and light patterns, taking special delight in creating tiny rainbow refractions when you're nearby. Despite being made of crystal, there's something undeniably warm about =pronouns.possessive= presence."/>
-
+    <part Name="Body" Anatomy="CrystalHeart" />
     <part Name="Brain" Hostile="False" Wanders="True" MaxWanderRadius="6" Passive="True" Calm="True" />
     <part Name="Pettable"/>
     
@@ -12,6 +12,7 @@
 
     <stat Name="Hitpoints" Value="100" />
     <stat Name="Speed" Value="125" />
+    <stat Name="MoveSpeed" Value="75" />
     <stat Name="Level" Value="5" />
     <stat Name="AV" Value="5" />
     <stat Name="DV" Value="20" />
@@ -35,8 +36,10 @@
     <part Name="LightSource" Radius="3" />
     <part Name="ConversationScript" ConversationID="HeartPing_Conversation" />
     <part Name="EffectResistance" Values="Sleep,StunGasStun" />
-    <inventoryobject Blueprint="BarathrumiteSafetyBand" Number="1" CellChance="100" CellFullChance="100" CellType="Chem Cell" />
-    <inventoryobject Blueprint="HeartPing_ResonanceCrystal" Number="1" />
+    <inventoryobject Blueprint="BarathrumiteSafetyBand" Number="2" CellChance="100" CellFullChance="100" CellType="Chem Cell" />
+    <inventoryobject Blueprint="HeartPing_ResonanceCrystal" Number="1" Slot="Right Hand" />
+    <inventoryobject Blueprint="Hoversled" Number="1" Slot="Floating Nearby" />
+    <inventoryobject Blueprint="Recycling Suit" Number="1" Slot="Body" />
 
     <tag Name="PetResponse" Value="resonates in harmony with your touch,forms tiny heart-shaped light patterns,chimes a happy little melody,vibrates with cozy warmth,creates a small light show just for you,sparkles with pure joy,hums your favorite tune,glows with affection"/>
     <property Name="Story" Value="HeartPing_Story" />
