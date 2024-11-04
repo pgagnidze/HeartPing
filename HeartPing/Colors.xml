@@ -2,7 +2,5 @@
 <colors>
   <shaders>
     <shader Name="HeartPingCalm" Type="alternation" Colors="m-M-W-M-m" ShowInPicker="false"/>
-    <shader Name="HeartPingHappy" Type="alternation" Colors="M-W-M-R-M" ShowInPicker="false"/>
-    <shader Name="HeartPingAlert" Type="alternation" Colors="R-M-R-W-R" ShowInPicker="false"/>
   </shaders>
 </colors>
