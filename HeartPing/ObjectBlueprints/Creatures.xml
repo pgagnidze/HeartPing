@@ -36,7 +36,7 @@
     <part Name="LightSource" Radius="3" />
     <part Name="ConversationScript" ConversationID="HeartPing_Conversation" />
     <part Name="EffectResistance" Values="Sleep,StunGasStun" />
-    <inventoryobject Blueprint="BarathrumiteSafetyBand" Number="2" CellChance="100" CellFullChance="100" CellType="Chem Cell" />
+    <inventoryobject Blueprint="BarathrumiteSafetyBand" Number="1" CellChance="100" CellFullChance="100" CellType="Chem Cell" />
     <inventoryobject Blueprint="HeartPing_ResonanceCrystal" Number="1" Slot="Right Hand" />
     <inventoryobject Blueprint="Hoversled" Number="1" Slot="Floating Nearby" />
     <inventoryobject Blueprint="Recycling Suit" Number="1" Slot="Body" />
